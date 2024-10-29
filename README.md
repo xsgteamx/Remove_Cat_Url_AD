@@ -18,22 +18,13 @@
 
 ---
 
-```JavaScript
-//  把这个lazy-image-view干掉就行
-[e._v("AD")]), e._v(" "), i("div", {
-staticClass: ""
-}, e._l(e.adImages, (function (t, n) {
-return i("div", {
-key: n,
-staticClass: ""
-}, [i("lazy-image-view", {
-attrs: {
-clickalbe: t.click,
-src: t.img
-},
-on: {
-click: function (t) {
-return e.adClick(n)
-}
-}
-```
+## 广告标签替换
+关键代码 `adClick`
+https://*.*.json
+|原|现|
+|-|-|
+|e._v\("Advertisement" | e.v\(""|
+|e._v\("广告" | e.v\(""|
+|staticClass:"ad-img-list"|staticClass:""|
+|staticClass:"ad-img"|staticClass:""|
+|"lazy-image-view"|""|
